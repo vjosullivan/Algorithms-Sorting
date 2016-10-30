@@ -12,6 +12,7 @@
 		F18B627B1DC5D00E003879EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18B62791DC5D00E003879EE /* Main.storyboard */; };
 		F18B627D1DC5D00E003879EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18B627C1DC5D00E003879EE /* Assets.xcassets */; };
 		F18B62801DC5D00E003879EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18B627E1DC5D00E003879EE /* LaunchScreen.storyboard */; };
+		F18B62891DC5D365003879EE /* ExampleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B62881DC5D365003879EE /* ExampleSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F18B627C1DC5D00E003879EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18B627F1DC5D00E003879EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18B62811DC5D00E003879EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18B62881DC5D365003879EE /* ExampleSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F18B62741DC5D00E003879EE /* AlgorithmsSorting */ = {
 			isa = PBXGroup;
 			children = (
+				F18B62871DC5D304003879EE /* SortingAlgorithms */,
 				F18B62751DC5D00E003879EE /* AppDelegate.swift */,
 				F18B62771DC5D00E003879EE /* ViewController.swift */,
 				F18B62791DC5D00E003879EE /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				F18B62811DC5D00E003879EE /* Info.plist */,
 			);
 			path = AlgorithmsSorting;
+			sourceTree = "<group>";
+		};
+		F18B62871DC5D304003879EE /* SortingAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				F18B62881DC5D365003879EE /* ExampleSort.swift */,
+			);
+			path = SortingAlgorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				F18B62781DC5D00E003879EE /* ViewController.swift in Sources */,
 				F18B62761DC5D00E003879EE /* AppDelegate.swift in Sources */,
+				F18B62891DC5D365003879EE /* ExampleSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
